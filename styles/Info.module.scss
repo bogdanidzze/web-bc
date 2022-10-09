@@ -1,0 +1,32 @@
+.info {
+    padding: 25px 0;
+    &__align {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &-item {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    &-numbers {
+        color: #005293;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    &-title {
+        font-size: 22px;
+        font-weight: 500;
+    }
+    &-subtitle {
+        font-size: 14px;
+        font-weight: 400;
+        max-width: 129px;
+    }
+}
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+

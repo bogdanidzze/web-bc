@@ -1,0 +1,168 @@
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.header {
+    font-family: Roboto, sans-serif;
+}
+.header-top {
+    padding: 4px 0;
+    background-color: #F8F8F8;
+    &__align {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.social {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.facebook {
+    color: #4267B2;
+    transition: all 0.2s;
+    &:hover {
+        color: #001e5a;
+    }
+}
+.instagram {
+    color: #DD2A7B;
+    transition: all 0.2s;
+    &:hover {
+        color: #800039;
+    }
+}
+.youtube {
+    color: #FF0000;
+    transition: all 0.2s;
+    &:hover {
+        color: #700000;
+    }
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    a {
+        color: #000;
+        margin-bottom: 1px;
+        border-bottom: 0px #F8F8F8 solid;
+        transition: all 0.2s;
+        &:hover {
+            border-bottom: 1px #005293 solid;
+        }
+    }
+}
+.header-middle {
+    padding: 15px 0;
+    &__align {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.logo {
+    transition: all 0.2s;
+    &:hover {
+        opacity: 0.6;
+    }
+}
+.header-search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #CCCCCC;
+    transition: 0.3s all;
+    &:focus-within {
+        border: 1px solid #005293;
+    } 
+    &__input {
+        padding: 7px 380px 7px 5px;
+    }
+    &__button {
+        padding: 7px 10px;
+        color: #CCCCCC;
+        transition: all 0.3s;
+        &:hover {
+            color: #fff;
+            background-color: #005293;
+        }
+    }
+}
+.header-location {
+    h6 {
+        font-size: 12px;
+        margin-bottom: 4px;
+    }
+    span {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+}
+.header-phone {
+    h6 {
+        font-size: 12px;
+        margin-bottom: 4px;
+    }
+    span {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        a {
+            display: flex;
+            color: #000;
+            font-size: 16px;
+            align-items: center;
+            gap: 3px;
+        }
+    }
+}
+.header-bottom {
+    background-color: #005293;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    &__align {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.nav-categories{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-item button{
+    gap: 2px;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s;
+    &:hover {
+        color: #ddd;
+    }
+}
+.user-activities {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.user-item {
+&:first-child {
+    margin-right: 15px;
+}
+button{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    transition: all 0.2s;
+    &:hover {
+        color: #ddd;
+    }
+}
+}

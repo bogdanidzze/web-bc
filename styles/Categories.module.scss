@@ -1,0 +1,27 @@
+.categories {
+    padding: 25px 0;
+    &-title {
+        font-size: 32px;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding-bottom: 50px;
+    }
+    &__align {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &-item {
+        text-align: center;
+        background-color: #fff;
+    }
+    &-subtitle {
+        font-size: 16px;
+        font-weight: 500;
+        color: #000;
+    }
+}
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
